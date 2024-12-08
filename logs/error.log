@@ -1,0 +1,3 @@
+2024/11/13 17:17:00 [alert] 1246631#0: lua_code_cache is off; this will hurt performance in /home/edi/Desktop/web-app-projects/my-lua-app/nginx.conf.compiled:20
+2024/11/13 17:18:52 [alert] 1249777#0: lua_code_cache is off; this will hurt performance in /home/edi/Desktop/web-app-projects/my-lua-app/nginx.conf.compiled:20
+2024/11/14 13:30:05 [alert] 2067189#0: lua_code_cache is off; this will hurt performance in /home/edi/Desktop/web-app-projects/my-lua-app/nginx.conf.compiled:20
