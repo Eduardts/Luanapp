@@ -1,0 +1,26 @@
+To use the system:
+
+Initialize the controller:
+
+Copy
+local controller = DeviceController:new({
+    broker_url = "mqtt.example.com",
+    broker_port = 1883,
+    device_id = "device001"
+})
+Load user scripts:
+lua
+
+Copy
+controller:load_script("temp_monitor", script_code)
+Configure security:
+lua
+
+Copy
+iam:load_policy({
+    name = "sensor_read",
+    role = "operator",
+    resource = "sensors",
+    action = "read",
+    effect = "allow"
+})
